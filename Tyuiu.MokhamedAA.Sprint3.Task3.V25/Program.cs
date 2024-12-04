@@ -5,8 +5,8 @@ namespace Tyuiu.MokhamedAA.Sprint3.Task3.V25
     {
         static void Main(string[] args)
         {
-            DataService ds = new DataService();
-           
+            DataService ds = new();
+
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                         ");
             Console.WriteLine("***************************************************************************");
