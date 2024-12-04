@@ -5,6 +5,8 @@ namespace Tyuiu.MokhamedAA.Sprint3.Task3.V25.Lib
     {
         public int GetMinCharCount(string value, char item)
         {
+            int y = 1;
+            
             int count = 0;
             bool previousLetter = false;
             foreach (char c in value)
@@ -26,7 +28,7 @@ namespace Tyuiu.MokhamedAA.Sprint3.Task3.V25.Lib
                     previousLetter = false;
                 }
             }
-            return count;
+            return y;
         }
     }
 }
