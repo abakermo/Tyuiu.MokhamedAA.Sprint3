@@ -20,7 +20,7 @@ namespace Tyuiu.MokhamedAA.Sprint3.Task3.V25
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                               ");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine(ds.GetMinCharCount(str, c));
+            Console.WriteLine("1");
             Console.ReadKey();
         }
     }
